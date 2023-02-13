@@ -44,7 +44,7 @@ H2 {
 }
 #logo{
     position:relative ;
-    top: 3rem; left: 40rem;
+    top: .5rem; left: 40rem;
     z-index: 1;
     border: 1px black;
 
@@ -57,4 +57,20 @@ nav a {
   padding: 15px;
   margin: 3rem;
   background-color: rgb(219, 233, 219);
+}
+img{
+    margin: 3rem;
+}
+section p {
+    margin-left: 3rem;
+  
+}
+section h3 {
+    margin-left: 3rem;
+}
+div p{
+    margin: 1rem 3rem;
+}
+div a {
+    margin-left: 3rem;
 }
