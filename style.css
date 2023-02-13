@@ -21,10 +21,14 @@ header {
 }
 aside {
   display: inline;
-  width: 20vw;
+ //* position: absolute;*//
+  width: 20%;
+  margin: 0px 5px;
 }
 .a1 section {
     display: inline;
+    //*position: absolute ;
+    top:1rem; left: 10rem;*//
   width: 50vw;
   margin: 3rem;
 }
