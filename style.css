@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: inline-block;
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  width: 80vw;
+  height: 30vh;
+  background-image: url(./assets/design1_image1.jpg);
+  background-position: 10% 20%;
+  background-size: cover;
+  padding: 5rem;
+  margin: 1rem 3rem;
+  border: 10px 25px solid;
+}
+aside {
+  display: inline;
+  width: 20vw;
+}
+.a1 section {
+    display: inline;
+  width: 50vw;
+  margin: 3rem;
+}
+h1 {
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+H2 {
+  color: white;
+  background-color: black;
+  position: relative;
+  margin: 1rem 3rem;
+
+  text-align: center;
+}
+#logo{
+    position:relative ;
+    top: 3rem; left: 40rem;
+    z-index: 1;
+    border: 1px black;
+
+}
+nav a {
+  display: block;
+  width: 8rem;
+  height: 2.5rem;
+  border: 2px solid black;
+  padding: 15px;
+  margin: 3rem;
+  background-color: rgb(219, 233, 219);
+}
