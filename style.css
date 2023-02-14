@@ -84,3 +84,35 @@ div p{
 div a {
     margin-left: 3rem;
 }
+#IHF{
+   
+}
+.game-schedule {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.game-schedule thead th {
+  background-color: #008CBA;
+  color: white;
+  text-align: left;
+  padding: 12px;
+}
+
+.game-schedule tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.game-schedule tbody td {
+  padding: 8px;
+}
+
+.game-schedule tbody tr:hover {
+  background-color: #ddd;
+}
+
+.game-schedule tbody td:first-child {
+  font-weight: bold;
+}
