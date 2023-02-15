@@ -8,14 +8,15 @@ body {
   width: 100vw;
   height: 100vh;
 }
-main{
+main {
   display: inline-block;
   width: 100vw;
-  height: 100vh;
-
+  height: vh;
 }
 .container {
   display: flex;
+  background-image: url(./assets/hockey1.jpg)
+  background-size: cover;
 }
 
 header {
@@ -25,11 +26,11 @@ header {
   background-position: 10% 20%;
   background-size: cover;
   padding: 5rem;
-  margin: 1rem 3rem 1rem 3rem ;
+  margin: 1rem 3rem 1rem 3rem;
   border: 10px 25px solid;
 }
 aside {
-  display:  block;
+  display: block;
   width: 20%;
   height: 100%; /* para que ocupe toda la altura del contenedor */
   background-color: #f2f2f2; /* color de fondo de ejemplo */
@@ -37,65 +38,87 @@ aside {
 .a1 {
   flex: 1; /* para que ocupe todo el ancho restante del contenedor */
   padding: 20px; /* para que haya un poco de espacio entre el aside y el contenido principal */
+ background-color: #c0ad97;
 }
-h1 {
-  color: white;
+h1 { 
   position: relative;
   text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 3em;
+  color: #181717;
+  text-shadow: 1px 1px #000;
 }
 
 H2 {
   color: white;
-  background-color: black;
+  background-color: rgb(38, 33, 33);
   position: relative;
   margin: 1rem 3rem;
 
   text-align: center;
 }
-#logo{
-    position:relative ;
-    top: .5rem; left: 40rem;
-    z-index: 1;
-    border: 1px black;
-
+#logo {
+  position: relative;
+  top: 0.5rem;
+  left: 40rem;
+  z-index: 1;
+  border: 1px black;
 }
 nav a {
   display: block;
-  width: 8rem;
-  height: 2.5rem;
+  font-family: 'Lobster', cursive;
+  font-size: 0.8em;  
+  text-align: center;
+  justify-content:center
+  height: 1.5em;
   border: 2px solid black;
   padding: 15px;
   margin: 3rem;
-  background-color: rgb(219, 233, 219);
+  margin-top: 1rem;
+  background-color: rgb(193, 200, 193);
 }
-img{
-    margin: 3rem;
+img {
+  margin: 1.5rem;
 }
 section p {
-    margin-left: 3rem;
-  
+  margin-left: 3rem;
 }
-section h3 {
-    margin-left: 3rem;
+section h3, p {
+  margin-left: 1rem;
+  font-family: 'Lobster', cursive;
+  font-size: 2em;
+  color: #181717;
+  text-shadow: 1px 1px #000;
 }
-div p{
-    margin: 1rem 3rem;
+section h4 {
+  margin-left: 1rem;
+  font-family: 'Lobster', cursive;
+  font-size: 1.3em;
+  color: #181717;
+  text-shadow: 1px 1px #000;
+}
+div p {
+  margin: 1rem 1rem;
+  font-size: 1em;
 }
 div a {
-    margin-left: 3rem;
+  margin-left: 3rem;
 }
-#IHF{
-   
+#IHF {
+  font-family: Lobster Cursive, cursive;
+  font-size: 24px;
+  text-align:center ;
 }
 .game-schedule {
-  border-collapse: collapse;
+  border-collapse:separate ;
   width: 100%;
   font-family: Arial, sans-serif;
   color: #333;
+  margin: 2rem 7rem 1rem 0.5rem;
 }
 
 .game-schedule thead th {
-  background-color: #008CBA;
+  background-color: #008cba;
   color: white;
   text-align: left;
   padding: 12px;
@@ -115,4 +138,34 @@ div a {
 
 .game-schedule tbody td:first-child {
   font-weight: bold;
+}
+
+.rules h3 {
+  font-family: Lobster Cursive, cursive;
+  font-size: 24px;
+}
+
+.rules ul, ol {
+  font-family: Lobster Cursive, cursive;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.rules li {
+  margin-bottom: 10px;
+}
+
+footer{
+  height: 9vh;
+  background-color: #c0ad97;
+  color: #5D3891;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+a[href="#"] {
+  color: red;
+  background-color: #48b05d;
 }
