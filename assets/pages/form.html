@@ -46,20 +46,20 @@
               <label for="firstName"
                 >Player's First Name: <label id="require">*</label></label
               >
-              <input type="text" id="firstName" name="first_name" />
+              <input type="text" id="firstName" name="first_name" required />
 
               <label for="lastName"
                 >Last Name:<label id="require">*</label></label
               >
-              <input type="text" id="lastName" name="lastName" />
+              <input type="text" id="lastName" name="lastName" required />
 
               <label for="streetAddress"
                 >Street Address:<label id="require">*</label></label
               >
-              <input type="text" id="streetAddress" name="streetAddress" />
+              <input type="text" id="streetAddress" name="streetAddress" required />
 
               <label for="city">City:<label id="require">*</label></label>
-              <input type="text" id="city" name="city" />
+              <input type="text" id="city" name="city" required />
 
               <label for="zipCode">Zip Code:</label>
               <input type="text" id="zipCode" name="zipCode" />
@@ -156,6 +156,7 @@
                 id="permission-to-play"
                 name="permission-to-play"
                 value="yes"
+                required
               />
               <legend>Permission to play</legend>
               <label for="permission-to-play"
@@ -168,6 +169,7 @@
                 indemnify.</label
               >
               <fieldset>
+                <legend>By entering your name below</legend>
                 <label for="Parent-Guardian"
                   >Parent or Guardian:<label id="require">*</label></label
                 >
@@ -175,6 +177,7 @@
                   type="text"
                   id="Parent-Guardian"
                   name="Parent-Guardian"
+                  required
                 />
               </fieldset>
             </fieldset>
