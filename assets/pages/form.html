@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Mighty Ducks Hockey League</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/Logo-Mighty-ducks-01.ico"
+      type="image/x-icon"
+    />
+  
+  </head>
+
+  <body>
+    <header>
+      <h1>Mighty Ducks Hockey League</h1>
+      <img
+        id="logo"
+        src="/assets/LogoMightyducks-01.png"
+        alt="Logo"
+        width="100"
+      />
+    </header>
+    <main>
+      <div>
+        <h2>Form</h2>
+      </div>
+      <div class="container">
+        <aside>
+          <nav>
+            <a href="/index.html ">Home</a>
+            <a href="./about.html">About MDHL</a>
+            <a href="./contact.html">contact</a>
+            <a href="./rules.html">Rules</a>
+            <a href="./schedule.html">Schedules</a>
+          </nav>
+          <img src="/assets/hockey1.jpg" alt="hockey 1" width="200" />
+        </aside>
+        <div class="a1">
+          <form>
+            <label id="require">Require*</label>
+            <fieldset>
+              <label for="firstName"
+                >Player's First Name: <label id="require">*</label></label
+              >
+              <input type="text" id="firstName" name="firstName" />
+
+              <label for="lastName"
+                >Last Name:<label id="require">*</label></label
+              >
+              <input type="text" id="lastName" name="lastName" />
+
+              <label for="streetAddress"
+                >Street Address:<label id="require">*</label></label
+              >
+              <input type="text" id="streetAddress" name="streetAddress" />
+
+              <label for="city">City:<label id="require">*</label></label>
+              <input type="text" id="city" name="city" />
+
+              <label for="zipCode">Zip Code:</label>
+              <input type="text" id="zipCode" name="zipCode" />
+
+              <label for="birthDate">Birth Date(mm/dd/yyyy):</label>
+              <input type="date" id="birthDate" name="birthDate" />
+
+              <label for="gender">Gender:</label>
+              <select id="gender" name="gender">
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+              </select>
+            </fieldset>
+            <fieldset>
+              <label for="grade">Grade:</label>
+              <select id="grade" name="grade">
+                <option value="Pre">Pre-School</option>
+                <option value="1">1 grade</option>
+                <option value="2">2 grade</option>
+                <option value="3">3 grade</option>
+                <option value="4">4 grade</option>
+                <option value="5">5 grade</option>
+                <option value="6">6 grade</option>
+              </select>
+
+              <label for="closestSchool"
+                >Which elementary school do you live near?</label
+              >
+              <select id="closestSchool" name="closestSchool">
+                <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                <option value="Marjorie P Hart">Marjorie P Hart</option>
+                <option value="Greenbay">Greenbay</option>
+                <option value="North Elementary">North Elementary</option>
+                <option value="Howard A Yeager">Howard A Yeager</option>
+                <option value="South Elementary">South Elementary</option>
+              </select>
+            </fieldset>
+            <fieldset>
+              <label for="position"
+                >What position(s) do you normally play? (check all that
+                apply)</label
+              >
+              <fieldset>
+                <label for="forward">Forward</label>
+                <input
+                  type="checkbox"
+                  id="forward"
+                  name="position"
+                  value="Forward"
+                />
+
+                <label for="midfield">Midfield</label>
+                <input
+                  type="checkbox"
+                  id="midfield"
+                  name="position"
+                  value="Midfield"
+                />
+
+                <label for="defense">Defense</label>
+                <input
+                  type="checkbox"
+                  id="defense"
+                  name="position"
+                  value="Defense"
+                />
+                <label for="Goalkeeper">Goalkeeper</label>
+                <input
+                  type="checkbox"
+                  id="goalkeeper"
+                  name="position"
+                  value="Goalkeeper"
+                />
+              </fieldset>
+            </fieldset>
+            <br />
+            <fieldset>
+              <label>Uniform Size:</label>
+              <select id="uniform-size" name="uniform-size">
+                <option value="Youth Small">YouthSmall</option>
+                <option value="Youth Medium">Youth Medium</option>
+                <option value="Youth Large">Youth Large</option>
+                <option value="small">small</option>
+                <option value="medium">medium</option>
+                <option value="Large">Large</option>
+                <option value="ExtreLarge">Extra large</option>
+              </select>
+            </fieldset>
+            <fieldset>
+              <label for="permission-to-play"
+                ><label id="require">*</label></label
+              >
+              <input
+                type="checkbox"
+                id="permission-to-play"
+                name="permission-to-play"
+                value="yes"
+              />
+              <legend>Permission to play</legend>
+              <label for="permission-to-play"
+                >I, the parent or guardian of the minor registrant, agree that
+                the registrant and I will abide by all the rules of the Mighty
+                Ducks Hockey League (MDHL). In recognizing the possibility of
+                physical injury associated with hockey and in consideration for
+                the "League" accepting the registrant for its hockey programs
+                and activities, I hereby release, discharge, and/or otherwise
+                indemnify.</label
+              >
+            </fieldset>
+
+            <input class="button" type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Developer @tordoFrancho</p>
+    </footer>
+  </body>
+</html>

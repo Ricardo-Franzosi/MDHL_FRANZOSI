@@ -28,17 +28,25 @@ header {
   padding: 5rem;
   margin: 1rem 3rem 1rem 3rem;
   border: 10px 25px solid;
+  border-radius: 4px;
 }
 aside {
   display: block;
   width: 20%;
   height: 100%; 
   background-color: #f2f2f2; 
+  border: #333 solid 2px;
+  margin: 0.5em;
+  border-radius: 4px;
 }
 .a1 {
   flex: 1; 
-  padding: 20px; 
+  padding: 20px;  
  background-color: #c0ad97;
+ border-radius: 4px;
+}
+.a1 h4{
+  text-align: center;
 }
 h1 { 
   position: relative;
@@ -69,13 +77,14 @@ nav a {
   font-family: 'Lobster', cursive;
   font-size: 0.8em;  
   text-align: center;
-  justify-content:center
+  justify-content: center;
   height: 1.5em;
   border: 2px solid black;
   padding: 15px;
-  margin: 3rem;
+  margin: 2rem;
   margin-top: 1rem;
-  background-color: rgb(193, 200, 193);
+  background-color: rgb(185, 188, 180);
+  
 }
 img {
   margin: 1.5rem;
@@ -109,18 +118,41 @@ div a {
   font-size: 24px;
   text-align:center ;
 }
+footer{
+  height: 9vh;
+  background-color: #c0ad97;
+  color: #5D3891;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+a[href="#"] {
+  color: red;
+  background-color: #48b05d;
+}
+
+//* estilos del table*//
+.table {
+  display: flexbox;
+  border: 2px solid black;
+  margin: .5rem;
+}
 .game-schedule {
   border-collapse:separate ;
   width: 100%;
-  font-family: Arial, sans-serif;
+  font-family:  Lobster Cursive, cursive;
   color: #333;
   margin: 2rem 7rem 1rem 0.5rem;
 }
-
+caption {
+  font-family:  Lobster Cursive, cursive;
+}
 .game-schedule thead th {
   background-color: #008cba;
   color: white;
-  text-align: left;
+  text-align: center;
   padding: 12px;
 }
 
@@ -155,17 +187,52 @@ div a {
   margin-bottom: 10px;
 }
 
-footer{
-  height: 9vh;
-  background-color: #c0ad97;
-  color: #5D3891;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2rem;
-}
-a[href="#"] {
-  color: red;
-  background-color: #48b05d;
-}
+
+//* estilos del Form*//
+
+form {
+        background-color: #c0ad97;
+      }
+label {
+        display: flexbox;
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-family: "Lobster", cursive;
+      }
+#require {
+        color: red;
+      }
+      input[type="text"],
+      input[type="date"],
+      select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 20px;
+        border: 1px solid #898484;
+        border-radius: 4px;
+      }
+select {
+        height: 38px;
+      }
+input[type="radio"] {
+        display: inline-block;
+        margin-right: 10px;
+      }
+input[type="checkbox"] {
+        margin-right: 10px;
+      }
+.button {
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        padding: 10px;
+      }
+.button:hover {
+        background-color: #a04557;
+      }
+       
+fieldset {
+        margin: 0.5rem;
+      }
