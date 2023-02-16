@@ -11,7 +11,6 @@
       href="/assets/Logo-Mighty-ducks-01.ico"
       type="image/x-icon"
     />
-  
   </head>
 
   <body>
@@ -26,7 +25,7 @@
     </header>
     <main>
       <div>
-        <h2>Form</h2>
+        <h2>Registration Form</h2>
       </div>
       <div class="container">
         <aside>
@@ -36,17 +35,18 @@
             <a href="./contact.html">contact</a>
             <a href="./rules.html">Rules</a>
             <a href="./schedule.html">Schedules</a>
+            <a href="#">Registration Form</a>
           </nav>
           <img src="/assets/hockey1.jpg" alt="hockey 1" width="200" />
         </aside>
         <div class="a1">
-          <form>
+          <form action="show_data.html" method="GET">
             <label id="require">Require*</label>
             <fieldset>
               <label for="firstName"
                 >Player's First Name: <label id="require">*</label></label
               >
-              <input type="text" id="firstName" name="firstName" />
+              <input type="text" id="firstName" name="first_name" />
 
               <label for="lastName"
                 >Last Name:<label id="require">*</label></label
@@ -77,12 +77,11 @@
               <label for="grade">Grade:</label>
               <select id="grade" name="grade">
                 <option value="Pre">Pre-School</option>
-                <option value="1">1 grade</option>
-                <option value="2">2 grade</option>
-                <option value="3">3 grade</option>
-                <option value="4">4 grade</option>
-                <option value="5">5 grade</option>
-                <option value="6">6 grade</option>
+                <option value="1">1st grade</option>
+                <option value="2">2nd grade</option>
+                <option value="3">3rd grade</option>
+                <option value="4">4th grade</option>
+                <option value="5">5th grade</option>
               </select>
 
               <label for="closestSchool"
@@ -168,6 +167,16 @@
                 and activities, I hereby release, discharge, and/or otherwise
                 indemnify.</label
               >
+              <fieldset>
+                <label for="Parent-Guardian"
+                  >Parent or Guardian:<label id="require">*</label></label
+                >
+                <input
+                  type="text"
+                  id="Parent-Guardian"
+                  name="Parent-Guardian"
+                />
+              </fieldset>
             </fieldset>
 
             <input class="button" type="submit" value="Submit" />
