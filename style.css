@@ -72,20 +72,9 @@ H2 {
   z-index: 1;
   border: 1px black;
 }
-nav a {
-  display: block;
-  font-family: 'Lobster', cursive;
-  font-size: 0.8em;  
-  text-align: center;
-  justify-content: center;
-  height: 1.5em;
-  border: 2px solid black;
-  padding: 15px;
-  margin: 2rem;
-  margin-top: 1rem;
-  background-color: rgb(185, 188, 180);
+
   
-}
+
 img {
   margin: 1.5rem;
 }
@@ -199,7 +188,7 @@ label {
         font-weight: bold;
         font-family: "Lobster", cursive;
       }
-#require {
+.require {
         color: red;
       }
       input[type="text"],
@@ -235,4 +224,16 @@ input[type="checkbox"] {
        
 fieldset {
         margin: 0.5rem;
+      }
+      nav a {
+        display: block;
+        font-family: 'Lobster', cursive;
+        font-size: 0.8em;  
+        text-align: center;           
+        height: 2rem;
+        border: 2px solid black;
+        padding: 15px;
+        margin: 2rem;
+       
+        background-color: rgb(185, 188, 180);
       }

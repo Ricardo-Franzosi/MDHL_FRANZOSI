@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=, initial-scale=1.0" >
     <title>Mighty Ducks Hockey League</title>
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/style.css" >
     <link
       rel="shortcut icon"
       href="/assets/Logo-Mighty-ducks-01.ico"
       type="image/x-icon"
-    />
+    >
   </head>
 
   <body>
@@ -21,7 +21,7 @@
         src="/assets/LogoMightyducks-01.png"
         alt="Logo"
         width="100"
-      />
+      >
     </header>
     <main>
       <div>
@@ -31,41 +31,35 @@
         <aside>
           <nav>
             <a href="/index.html ">Home</a>
-            <a href="./about.html">About MDHL</a>
-            <a href="./contact.html">contact</a>
-            <a href="./rules.html">Rules</a>
-            <a href="./schedule.html">Schedules</a>
+            <a href="/about.html">About MDHL</a>
+            <a href="/contact.html">contact</a>
+            <a href="/rules.html">Rules</a>
+            <a href="/schedule.html">Schedules</a>
             <a href="#">Registration Form</a>
           </nav>
-          <img src="/assets/hockey1.jpg" alt="hockey 1" width="200" />
+          <img src="/assets/hockey1.jpg " alt="hockey 1" width="200" >
         </aside>
         <div class="a1">
           <form action="show_data.html" method="GET">
-            <label id="require">Require*</label>
+            <label class="require">Require*</label>
             <fieldset>
               <label for="firstName"
-                >Player's First Name: <label id="require">*</label></label
-              >
-              <input type="text" id="firstName" name="first_name" required />
+                >Player's First Name: </label><label class="require">*</label>
+              <input type="text" id="firstName" name="first_name" required >
+              <label for="lastName">Last Name:</label><label class="require">*</label>
+              <input type="text" id="lastName" name="lastName" required >
 
-              <label for="lastName"
-                >Last Name:<label id="require">*</label></label
-              >
-              <input type="text" id="lastName" name="lastName" required />
+              <label for="streetAddress">Street Address:</label><label class="require">*</label>
+              <input type="text" id="streetAddress" name="streetAddress" required >
 
-              <label for="streetAddress"
-                >Street Address:<label id="require">*</label></label
-              >
-              <input type="text" id="streetAddress" name="streetAddress" required />
-
-              <label for="city">City:<label id="require">*</label></label>
-              <input type="text" id="city" name="city" required />
+              <label for="city">City:</label><label class="require">*</label>
+              <input type="text" id="city" name="city" required >
 
               <label for="zipCode">Zip Code:</label>
-              <input type="text" id="zipCode" name="zipCode" />
+              <input type="text" id="zipCode" name="zipCode" >
 
               <label for="birthDate">Birth Date(mm/dd/yyyy):</label>
-              <input type="date" id="birthDate" name="birthDate" />
+              <input type="date" id="birthDate" name="birthDate" >
 
               <label for="gender">Gender:</label>
               <select id="gender" name="gender">
@@ -97,9 +91,7 @@
               </select>
             </fieldset>
             <fieldset>
-              <label for="position"
-                >What position(s) do you normally play? (check all that
-                apply)</label
+              <label>What position(s) do you normally play? (check all that apply)</label
               >
               <fieldset>
                 <label for="forward">Forward</label>
@@ -108,33 +100,31 @@
                   id="forward"
                   name="position"
                   value="Forward"
-                />
-
+                >
                 <label for="midfield">Midfield</label>
                 <input
                   type="checkbox"
                   id="midfield"
                   name="position"
                   value="Midfield"
-                />
-
+                >
                 <label for="defense">Defense</label>
                 <input
                   type="checkbox"
                   id="defense"
                   name="position"
                   value="Defense"
-                />
+                >
                 <label for="Goalkeeper">Goalkeeper</label>
                 <input
                   type="checkbox"
-                  id="goalkeeper"
+                  id="Goalkeeper"
                   name="position"
                   value="Goalkeeper"
-                />
+                >
               </fieldset>
             </fieldset>
-            <br />
+         
             <fieldset>
               <label>Uniform Size:</label>
               <select id="uniform-size" name="uniform-size">
@@ -148,17 +138,15 @@
               </select>
             </fieldset>
             <fieldset>
+              <legend>Permission to play</legend>
               <label for="permission-to-play"
-                ><label id="require">*</label></label
-              >
+                ></label><label class="require">*</label>
               <input
                 type="checkbox"
                 id="permission-to-play"
                 name="permission-to-play"
                 value="yes"
-                required
-              />
-              <legend>Permission to play</legend>
+                required>             
               <label for="permission-to-play"
                 >I, the parent or guardian of the minor registrant, agree that
                 the registrant and I will abide by all the rules of the Mighty
@@ -171,18 +159,17 @@
               <fieldset>
                 <legend>By entering your name below</legend>
                 <label for="Parent-Guardian"
-                  >Parent or Guardian:<label id="require">*</label></label
-                >
+                  >Parent or Guardian:</label><label class="require">*</label>
                 <input
                   type="text"
                   id="Parent-Guardian"
                   name="Parent-Guardian"
                   required
-                />
+                >
               </fieldset>
             </fieldset>
 
-            <input class="button" type="submit" value="Submit" />
+            <input class="button" type="submit" value="Submit" >
           </form>
         </div>
       </div>
